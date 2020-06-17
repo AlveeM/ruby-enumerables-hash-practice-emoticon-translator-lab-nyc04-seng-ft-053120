@@ -41,3 +41,23 @@ end
 
 # load_library("./lib/emoticons.yml")
 # pp get_japanese_emoticon("./lib/emoticons.yml", ":)")
+
+
+
+def load_library(file_path)
+  emoticons = YAML.load_file(file_path)
+  result_hash = {}
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
